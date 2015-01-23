@@ -4,6 +4,9 @@ Feature: Login
    As a user
    I want to login as existing user
    So that I can use Docdock application
+   with valid credentials
+
+
 
   @smoke_login
   Scenario: User login for the first time
