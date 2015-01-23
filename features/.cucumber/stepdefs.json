@@ -1,0 +1,155 @@
+[
+  {
+    "source": "^I click on any admin user$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/delete_admin_steps.rb:9",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^When I click on delete button in the Admin profile page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/delete_admin_steps.rb:15",
+    "steps": [
+      {
+        "name": "When I click on delete button in the Admin profile page",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^the record should get deleted from the list$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/delete_admin_steps.rb:21",
+    "steps": [
+      {
+        "name": "the record should get deleted from the list",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I login as a user name \"(.*?)\" and password \"(.*?)\"$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/login_steps.rb:1",
+    "steps": [
+      {
+        "name": "I login as a user name \"darshan\" and password \"passwordM@1\"",
+        "args": [
+          {
+            "offset": 24,
+            "val": "darshan"
+          },
+          {
+            "offset": 47,
+            "val": "passwordM@1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I click on Sign In button$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/login_steps.rb:9",
+    "steps": [
+      {
+        "name": "I click on Sign In button",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Home page for the user should be displayed$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/login_steps.rb:15",
+    "steps": [
+      {
+        "name": "Home page for the user should be displayed",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I am on home page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/manage_admin_steps.rb:1",
+    "steps": [
+      {
+        "name": "I am on home page",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I click on Manage Admin tab$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/manage_admin_steps.rb:9",
+    "steps": [
+      {
+        "name": "I click on Manage Admin tab",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^list of admins should be displayed$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/manage_admin_steps.rb:17",
+    "steps": [
+      {
+        "name": "list of admins should be displayed",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I am on manage admin page$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/view_admin_profile_steps.rb:1",
+    "steps": [
+
+    ]
+  },
+  {
+    "source": "^I click on any admin from the list$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/view_admin_profile_steps.rb:10",
+    "steps": [
+      {
+        "name": "I click on any admin from the list",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^it should display the profile details on the right side$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/view_admin_profile_steps.rb:16",
+    "steps": [
+      {
+        "name": "it should display the profile details on the right side",
+        "args": [
+
+        ]
+      }
+    ]
+  }
+]

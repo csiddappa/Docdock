@@ -1,0 +1,15 @@
+##
+# P_list - Ruby Cucumber Automation
+#
+# Revision History:
+# -----------------
+# Creator Name  : Qwinix QA
+# Modifier By   : <Harshith>
+#
+# @description: This file contains execution order of features. The highest number features executes first in the order
+
+##
+features/docdock_login.feature : 800
+features/manage_admin.feature : 750
+features/view_admin.feature : 700
+features/delete_admin.feature : 650
