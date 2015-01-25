@@ -5,12 +5,8 @@ Feature: Login
    So that I can use Docdock application
    with valid credentials
 
-
-
-  @smoke_login
-  Scenario: User login for the first time
-    Given I login as a user name "darshan" and password "passwordM@1"
-    When I click on Sign In button 
-    Then Home page for the user should be displayed
-
- 
+@smoke_login
+Scenario: User login for the first time
+   Given I login as a user name "darshan" and password "passwordM@1"
+   When I click on Sign In button 
+   Then Home page for the user should be displayed
