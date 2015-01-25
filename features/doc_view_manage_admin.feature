@@ -8,6 +8,6 @@ Feature: view_admin
 Scenario: view_admin
 	Given I am on home page
 	When I click on Manage Admin tab
-	Then list of admins should be displayed
+	Then List of admins should be displayed
 	When I click on any admin from the list
-	Then it should display the profile details on the right side
+	Then I should see the profile details on the right side

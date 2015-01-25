@@ -1,4 +1,3 @@
-@dock
 @login
 Feature: Login
    As a user
