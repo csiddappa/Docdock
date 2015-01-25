@@ -7,19 +7,19 @@ module WatirPageHelper::Docdock
     direct_url "http://it.docdock.qwinixtech.com"
      
     def wait_for_login
-	ele = @browser.input(:id, "sign_in_login_handle")
-	ele.wait_until_present
+		ele = @browser.input(:id, "sign_in_login_handle")
+		ele.wait_until_present
 	if ele.exists?
-	return "login page is present"
+	   return "login page is present"
 	else
-	raise Exception.new "Login page is not present"
+	   raise Exception.new "Login page is not present"
 	end
 	end
 	
 	def enter_user_data user, pwd
-	wait_for_login 
-	@browser.input(:id, "sign_in_login_handle").send_keys user
-	@browser.input(:id, "sign_in_password").send_keys pwd
+		wait_for_login 
+		@browser.input(:id, "sign_in_login_handle").send_keys user
+		@browser.input(:id, "sign_in_password").send_keys pwd
 	end
 	
 	def click_sign_in

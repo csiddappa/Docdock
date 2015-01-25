@@ -1,19 +1,11 @@
 [
   {
-    "source": "^I click on any admin user$",
+    "source": "^I click on delete button in the Admin profile page$",
     "flags": "",
-    "file_colon_line": "features/step_definitions/delete_admin_steps.rb:9",
-    "steps": [
-
-    ]
-  },
-  {
-    "source": "^When I click on delete button in the Admin profile page$",
-    "flags": "",
-    "file_colon_line": "features/step_definitions/delete_admin_steps.rb:15",
+    "file_colon_line": "features/step_definitions/delete_admin_steps.rb:1",
     "steps": [
       {
-        "name": "When I click on delete button in the Admin profile page",
+        "name": "I click on delete button in the Admin profile page",
         "args": [
 
         ]
@@ -21,12 +13,12 @@
     ]
   },
   {
-    "source": "^the record should get deleted from the list$",
+    "source": "^The record should get deleted from the list$",
     "flags": "",
-    "file_colon_line": "features/step_definitions/delete_admin_steps.rb:21",
+    "file_colon_line": "features/step_definitions/delete_admin_steps.rb:9",
     "steps": [
       {
-        "name": "the record should get deleted from the list",
+        "name": "The record should get deleted from the list",
         "args": [
 
         ]
@@ -82,7 +74,7 @@
   {
     "source": "^I am on home page$",
     "flags": "",
-    "file_colon_line": "features/step_definitions/manage_admin_steps.rb:1",
+    "file_colon_line": "features/step_definitions/view_manage_admin_steps.rb:1",
     "steps": [
       {
         "name": "I am on home page",
@@ -95,7 +87,7 @@
   {
     "source": "^I click on Manage Admin tab$",
     "flags": "",
-    "file_colon_line": "features/step_definitions/manage_admin_steps.rb:9",
+    "file_colon_line": "features/step_definitions/view_manage_admin_steps.rb:9",
     "steps": [
       {
         "name": "I click on Manage Admin tab",
@@ -106,12 +98,12 @@
     ]
   },
   {
-    "source": "^list of admins should be displayed$",
+    "source": "^List of admins should be displayed$",
     "flags": "",
-    "file_colon_line": "features/step_definitions/manage_admin_steps.rb:17",
+    "file_colon_line": "features/step_definitions/view_manage_admin_steps.rb:17",
     "steps": [
       {
-        "name": "list of admins should be displayed",
+        "name": "List of admins should be displayed",
         "args": [
 
         ]
@@ -119,17 +111,9 @@
     ]
   },
   {
-    "source": "^I am on manage admin page$",
-    "flags": "",
-    "file_colon_line": "features/step_definitions/view_admin_profile_steps.rb:1",
-    "steps": [
-
-    ]
-  },
-  {
     "source": "^I click on any admin from the list$",
     "flags": "",
-    "file_colon_line": "features/step_definitions/view_admin_profile_steps.rb:10",
+    "file_colon_line": "features/step_definitions/view_manage_admin_steps.rb:23",
     "steps": [
       {
         "name": "I click on any admin from the list",
@@ -140,12 +124,12 @@
     ]
   },
   {
-    "source": "^it should display the profile details on the right side$",
+    "source": "^I should see the profile details on the right side$",
     "flags": "",
-    "file_colon_line": "features/step_definitions/view_admin_profile_steps.rb:16",
+    "file_colon_line": "features/step_definitions/view_manage_admin_steps.rb:29",
     "steps": [
       {
-        "name": "it should display the profile details on the right side",
+        "name": "I should see the profile details on the right side",
         "args": [
 
         ]
